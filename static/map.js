@@ -163,7 +163,7 @@ function pokemonLabel(name, id, disappear_time, latitude, longitude) {
         <div>\
             <a href='https://www.google.com/maps/dir/Current+Location/"+latitude+","+longitude+"'\
                     target='_blank' title='View in Maps'>Get Directions</a>\
-            <a href='#' onclick='removePokemon(\"" + id + "\")')>Remove " + name + " From Overview</a>\
+            <a href='#' onclick='removePokemon(\"" + id + "\")')>Hide " + name + "s</a>\
         </div>";
     return label;
 };
